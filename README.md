@@ -1,2 +1,2 @@
 # Python-Learning-Scripts
-Includes script written by me while practicing Python on site such at HackerRank.
+Includes scripts written by me while practicing Python on sites such as HackerRank.
