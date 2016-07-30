@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 30 14:01:21 2016
+
+@author: Pat
+"""
+'''3
+1 0
+2 $
+3 1
+'''
+t = int(input())
+
+for i in range(0, t):
+    try:
+        
+       l = list(map(int,input().strip().split()))
+       a = int(l[0] / l[1])
+       print(str(a))
+
+    except ZeroDivisionError as e1:
+        print("Error Code: integer division or modulo by zero")
+    except ValueError as e2:
+        print("Error Code:", str(e2))
